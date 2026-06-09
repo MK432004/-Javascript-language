@@ -15,3 +15,4 @@ mycoding.forEach((vlaue)=> {
     }
 })
 console.log(newnums)
+console.log("Day 2");
