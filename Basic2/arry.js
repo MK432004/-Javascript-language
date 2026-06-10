@@ -1,11 +1,11 @@
-const myarry = [1,2 , 3 ,4 , 6]
-const myHeroos = [ "shktiman" , "nagaarjun"]
-const Arry = new Array (1,2, 3, 4, 5)
-//console.log(myarry)
-//
-myarry.shift()
-console.log(myarry.includes(9))
-console.log(myarry.indexOf(3))
+// const myarry = [1,2 , 3 ,4 , 6]
+// const myHeroos = [ "shktiman" , "nagaarjun"]
+// const Arry = new Array (1,2, 3, 4, 5)
+// //console.log(myarry)
+// //
+// myarry.shift()
+// console.log(myarry.includes(9))
+// console.log(myarry.indexOf(3))
 const newarry = myarry.join ()
 console.log(myarry)
 console.log(newarry)
