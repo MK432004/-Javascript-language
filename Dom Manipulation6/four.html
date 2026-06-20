@@ -23,6 +23,28 @@
     addLanguage('c#');
     addLanguage('php');
 
+
+     function optilanguage(langname){
+        const li = document.createElement("li");
+        li.appendChild(document.createTextNode(langname));
+        document.querySelector('.language').appendChild(li);
+     }
+     optilanguage('ruby');
+     optilanguage('go');
+     // edit value
+      const secondlng = document.querySelector("li:nth-child(2)");
+      //  secondlng.innerHTML = "typescript";
+       const newelement = document.createElement("li");
+       newelement.textContent = "typescript";
+       secondlng.replaceWith(newelement);
+       // edit 
+       const firstdlng = document.querySelector("li:first-child");
+        firstdlng.outerHTML = "<li>HTML</li>";
+
+        // remove element
+        const lastlang = document.querySelector("li:last-child");
+        lastlang.remove();
+
 </script>
     
 </html>
