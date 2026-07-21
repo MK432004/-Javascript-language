@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>java script seres</h1>
+    <button id="stop">stop</button>
+    <button id="start"> start</button>
+    <script>
+       
+        const start = document.querySelector('start').addEventListener('click',function(){
+            console.log('manish', Date.now())
+        },true)
+          setInterval(start ,1000)
+           const shaydate =  document.querySelector('stop').addEventListener('click',function(){
+           
+            console.log('stoped')
+        })
+    </script>
+    
+</body>
+</html>
