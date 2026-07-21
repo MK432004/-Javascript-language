@@ -11,11 +11,11 @@
     <button id="start"> start</button>
     <script>
        
-        const start = document.querySelector('start').addEventListener('click',function(){
+        const start = document.querySelector('#start').addEventListener('click',function(){
             console.log('manish', Date.now())
         },true)
-          setInterval(start ,1000)
-           const shaydate =  document.querySelector('stop').addEventListener('click',function(){
+          setInterval(start ,2000)
+           const shaydate =  document.querySelector('#stop').addEventListener('click',function(){
            
             console.log('stoped')
         })
