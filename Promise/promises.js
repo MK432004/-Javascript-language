@@ -47,4 +47,11 @@ const promiesfour = new Promise(function(resolve, reject){
 
 })
 
-promiesfour.than()
+promiesfour.than((user)=>{
+  console.log(user)
+})  return user.username;
+}).than((username)=>{
+  console.log(username)
+}).catch(function(error){
+  console.log(error)
+})
