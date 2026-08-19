@@ -55,3 +55,23 @@ promiesfour.than((user)=>{
 }).catch(function(error){
   console.log(error)
 })
+
+
+
+const promisefive = new Promise(function(){
+  setTimeout(function(){
+    let error = true;
+    if(!error){
+      resolve({ username: "manish" , email: "manish2gmil.com"})
+    }else{
+      reject(' js  ')
+    }
+    }, 1000)
+})
+
+async function consumepromisefive(){
+  const response = await promisefive
+  console.log(response);
+}
+
+consumepromisefive()
