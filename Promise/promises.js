@@ -70,8 +70,18 @@ const promisefive = new Promise(function(){
 })
 
 async function consumepromisefive(){
+ try {
   const response = await promisefive
   console.log(response);
+  }catch(error){
+  console.log(error)
+  }
 }
 
 consumepromisefive()
+
+
+async function getAllusers() {
+  await fetch
+  
+}
